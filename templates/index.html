@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blockchain App</title>
+</head>
+<body>
+    <h1>Welcome to the Blockchain App</h1>
+    <p>Your wallet address: {{ wallet.address }}</p>
+    <p>Your balance: {{ wallet.balance }}</p>
+    <a href="{{ url_for('transaction') }}">Send Transaction</a>
+</body>
+</html>
